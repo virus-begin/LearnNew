@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script src="d3.js"></script>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!--    <svg width="500" height="500">
+        <rect x="0" y="0" width="300" height="200" fill="yellow"></rect>
+    </svg>-->
+    <!-- <p id="p1" class="custom">First para </p> -->
+    <!-- <p id="p2" class="custom">Second Para </p> -->
+    <!-- <table>
+        <thead>
+            <td>Sample1</td>
+            <td>Sample2</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Value one</td>
+                <td>Value two</td>
+            </tr>
+            <tr>
+                <td>Value theree</td>
+                <td>Value four</td>
+            </tr>
+        </tbody>
+    </table> -->
+    <!-- <div>
+        <p>Sample First Paragraph</p>
+        <p><label>D3</label><input type="checkbox"></p>
+        <p><label>JQuery</label><input type="checkbox"></p>
+        <p><label>D3</label><input type="checkbox"></p>
+        <p><label>JQuery</label><input type="checkbox"></p>
+        <p><label>D3</label><input type="checkbox"></p>
+        <p><label>JQuery</label><input type="checkbox"></p>
+        <p><label>D3</label><input type="checkbox"></p>
+        <p><label>JQuery</label><input type="checkbox"></p>
+        <p><label>D3</label><input type="checkbox"></p>
+        <p><label>JQuery</label><input type="checkbox"></p>
+        <p><label>D3</label><input type="checkbox"></p>
+        <p><label>JQuery</label><input type="checkbox"></p>
+        <p><label>D3</label><input type="checkbox"></p>
+        <p><label>JQuery</label><input type="checkbox"></p>
+    </div> -->
+    <p>Error:</p>
+    <script>
+        // d3.select("p").style('color', "green");
+        // d3.select("tr").style('background', "red");
+        // d3.select("tr").selectAll("td").style("color", "yellow");
+        // d3.select("tbody").selectAll("tr").style("background", "purple");
+        // d3.select("p").style("color", "#dddf").style("font-weight", "bold").text("This is a test Table");
+        // d3.select('div').insert("p").text("this will be new one").style('color', '#2938dd');
+        d3.select("p").classed('error', true);
+    </script>
+</body>
+
+</html>
